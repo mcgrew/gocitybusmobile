@@ -1,0 +1,16 @@
+application: gocitybusmobile
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /simple
+  script: home.py
+
+- url: /api
+  script: api.py
+
+- url: /.*
+  static_files: index.html
+  upload: index.html
+
