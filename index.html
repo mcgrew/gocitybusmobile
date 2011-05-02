@@ -2,8 +2,21 @@
 <html>
 	<head>
 	<title>GoCitybus Mobile</title>
+	<meta 
+		name="viewport" 
+		content="width=device-width;initial-scale=1.0;maximum-scale=1.0; user-scalable=0;" />
+	<script type="text/javascript"><!--
+	function locationHandler( location ) {
+		var massage = document.getElementById( "message" );
+		message.innerHTML  = "<div>Latitude " + location.coords.latitude + "</div>";
+		message.innerHTML += "<div>Longitude " + location.coords.longitude + "</div>";
+		message.innerHTML += "<div>Accuracy " + location.coords.accuracy + "</div>";
+	}
+	navigator.geolocation.getCurrentPosition( locationHandler );
+	// --></script>
 	</head>
 	<body>
+	<div id="message"></div>
 	</body>
 </html>
 

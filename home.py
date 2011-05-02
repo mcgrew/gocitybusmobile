@@ -7,12 +7,13 @@ import re
 class MainPage( webapp.RequestHandler ):
 	def get( self ):
 		self.response.headers[ 'Content-Type'] = 'text/html'
-		self.response.out.write( """<!DOCTYPE html>
-		<html>
-			<head>
+		self.response.out.write( "<!DOCTYPE html><html><head>" )
+		if self.request.get( 'stop' ):
+			self.response.out.write( '<meta http-equiv="refresh" content="60" />' )
+		self.response.out.write( """
 			<meta 
 				name="viewport" 
-				content="width=device-width;initial-scale=1.0;maximum-scale=1.0; user-scalable=0;" />
+				content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;" />
 			<style type='text/css'>
 				html, body {
 					font-family: Arial, Helvetica, sans-serif;
