@@ -31,7 +31,7 @@ class MainPage( webapp.RequestHandler ):
 					margin: 0;
 				}
 				.bus {
-					padding-bottom: 10px;
+					margin-bottom: 10px;
 				}
 			</style>
 			</head>

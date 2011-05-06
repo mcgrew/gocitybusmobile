@@ -2,21 +2,68 @@
 <html>
 	<head>
 	<title>GoCitybus Mobile</title>
+	<style type="text/css">
+	html, body {
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 3px;
+		margin: 0;
+	}
+	h1 { 
+		padding: 0;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.stop_name {
+		font-weight: bold;
+	}
+	.stop_distance {
+		color: #666;
+	}
+	.stop {
+		margin-bottom: 5px;
+		min-height: 3.8em;
+		border: 1px solid black;
+		background-color: #ccf;
+	}
+	a { 
+		text-decoration: none;
+		color: #000;
+	}
+	</style>
 	<meta 
 		name="viewport" 
 		content="width=device-width;initial-scale=1.0;maximum-scale=1.0; user-scalable=0;" />
 	<script type="text/javascript"><!--
 	function locationHandler( location ) {
 		var massage = document.getElementById( "message" );
-		message.innerHTML  = "<div>Latitude " + location.coords.latitude + "</div>";
-		message.innerHTML += "<div>Longitude " + location.coords.longitude + "</div>";
-		message.innerHTML += "<div>Accuracy " + location.coords.accuracy + "</div>";
+		xhr = new XMLHttpRequest( )
+		xhr.onreadystatechange = handler;
+		xhr.open( "GET", "/api?limit=6" + 
+			"&amp;lat=" + location.coords.latitude +
+			"&amp;lon=" + location.coords.longitude );
+		xhr.send( );
+	}
+
+	function handler( ) {
+		if ( this.readyState == 4 && this.status == 200 ) {
+			var stops_div = document.getElementById( "stops" );
+			response = JSON.parse( this.responseText );
+			for ( i in response.stops ) {
+				var stop = response.stops[ i ];	
+				stops_div.innerHTML += "<a href='/simple?stop=" + stop.stop_code + "'>" + 
+					"<div class='stop' id='" + stop.stop_code + "'>" + 
+					"<div class='stop_name'>" + stop.stop_name + "</div>" + 
+					"<div class='stop_distance'>" + Math.round( stop.distance * 5281 ) + " ft</div>"
+					"</a>";
+			}
+		}
 	}
 	navigator.geolocation.getCurrentPosition( locationHandler );
 	// --></script>
 	</head>
 	<body>
-	<div id="message"></div>
+	<h1>Nearby Stops</h1>
+	<div id="stops"></div>
 	</body>
 </html>
 
