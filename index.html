@@ -22,8 +22,10 @@
 	.stop {
 		margin-bottom: 5px;
 		min-height: 3.8em;
-		border: 1px solid black;
+		border: 4px outset #666;
+		border-radius: 10px;
 		background-color: #ccf;
+		padding: 0 10px;
 	}
 	a { 
 		text-decoration: none;
@@ -35,13 +37,19 @@
 		content="width=device-width;initial-scale=1.0;maximum-scale=1.0; user-scalable=0;" />
 	<script type="text/javascript"><!--
 	function locationHandler( location ) {
-		var massage = document.getElementById( "message" );
-		xhr = new XMLHttpRequest( )
-		xhr.onreadystatechange = stopsHandler;
-		xhr.open( "GET", "/api?limit=6" + 
-			"&amp;lat=" + location.coords.latitude +
-			"&amp;lon=" + location.coords.longitude );
-		xhr.send( );
+		var stops = document.getElementById( "stops" );
+		if ( location.coords.accuracy > 100 ) {
+			setTimeout( "getLocation( )", 50 )
+		} else {
+			stops.innerHTML += "<div>Location Accuracy: " + 
+				Math.round( location.coords.accuracy  * 3.2808399 ) + "ft</div>";
+			xhr = new XMLHttpRequest( );
+			xhr.onreadystatechange = stopsHandler;
+			xhr.open( "GET", "/api?limit=6" + 
+				"&amp;lat=" + location.coords.latitude +
+				"&amp;lon=" + location.coords.longitude );
+			xhr.send( );
+		}
 	}
 
 	function stopsHandler( ) {
@@ -71,8 +79,16 @@
 		}
 	}
 	
-	navigator.geolocation.getCurrentPosition( locationHandler, locationErrorHandler,
-		{ "enableHighAccuracy": true, "maximumAge" : 60000 } );
+	function getLocation(  ) {
+		navigator.geolocation.getCurrentPosition( 
+			locationHandler, 
+			locationErrorHandler, 
+			{ 
+				"enableHighAccuracy": true, 
+				"maximumAge" : 0 
+			});
+	}
+	getLocation( );
 	// --></script>
 	</head>
 	<body>
