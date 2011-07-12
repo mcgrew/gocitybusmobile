@@ -10,6 +10,17 @@ handlers:
 - url: /api
   script: api.py
 
+- url: /google_transit/*
+  static_files: /google_transit/\1
+  upload: /google_transit/*.txt
+
+- url: /simplejson/*
+  static_files: /simplejson/\1
+  upload: simplejson/*.py
+
+- url: /images
+  static_dir: images
+
 - url: /.*
   static_files: index.html
   upload: index.html
