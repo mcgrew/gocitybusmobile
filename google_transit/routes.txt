@@ -1,28 +1,28 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
-6aff8258-430c-42ba-b039-351c97abb08d,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"6B","South 18th St","6B South 18th St, operates Monday - Saturday",3,FF00FF,000000
-ade4ea9e-56db-45d5-847a-566c78b28819,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"2A","Schuyler Ave","2A Schuyler Ave, operates Monday - Saturday",3,FF1493,000000
-61b789e8-d4c6-40c8-b0ce-7d0d4b174459,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"5Nwrn","Northwestern","5 Northwestern, operates Monday - Saturday",3,FFA500,000000
-a21a67fe-d9ed-4760-81b8-553e80ebc0b5,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"21","College Station","21 College Station, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
-fb16462c-3c56-4699-83e2-d58075bef0af,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"12","Gold Loop","12 Gold Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held ",3,FFD700,000000
-84cfd94f-fcc1-4f64-b492-9499908dfa63,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"18WB","Nightrider to Purdue/WL","18 Nightrider to Purdue/West Lafayette, operates Friday and Saturday nights only during Purdue's Fall & Spring Semesters, during weeks when classes are held",3,8B4513,000000
-62ac68f6-0383-4fe9-826c-d89abfc33ab2,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"4A","Tippecanoe Mall","4A Tippecanoe Mall, operates Monday - Sunday",3,008000,000000
-0d5a7536-4e66-4576-b717-f71d10f32887,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"5HH","Happy Hollow","5 Happy Hollow, operates Monday - Friday",3,FF4500,000000
-0e5f68e4-b940-4336-97ae-4b40b8f6fedd,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"4B","Purdue West","4B Purdue West, operates Monday - Saturday",3,006400,FFFFFF
-e8b2d9cd-0188-424d-a33f-3c4339bfcfc4,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"1B","Salisbury","1B Salisbury, operates Monday - Sunday",3,4169E1,000000
-1e5576ba-e80c-4481-b0ba-284287003348,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"2B","Union St","2B Union St, operates Monday - Saturday",3,C71585,000000
-2a6e87fa-5696-4df8-870d-4a866a8e4d1b,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"7","State Road 26","7 State Road 26, operates Monday - Sunday",3,000000,FFFFFF
-98efeca9-f981-417a-9ef7-998361e50c75,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"6A","Fourth St","6A Fourth St, operates Monday - Saturday",3,FF00FF,000000
-752bb4e6-7fc0-494a-92f8-5332db9bf8f3,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"15","Tower Acres","15 Tower Acres, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,7CFC00,000000
-5da30060-a34e-434d-856c-bfc76cc32a2a,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"16","Bronze Loop","16 Bronze Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,B8860B,000000
-00c4a100-28f0-4d6b-a66e-f7fb69def737,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"3","Lafayette Square","3 Lafayette Square, operates Monday - Sunday",3,FF8C00,000000
-39ecf073-5e14-48ad-bfa8-94780e369b2f,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"1A","Market Square","1A Market Square, operates Monday - Sunday",3,1E90FF,000000
-3f5bb99a-439a-4bfc-acbe-d04c28dbfb81,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"20","AvTech","20 AvTech, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,C71585,000000
-74c1d700-6960-420d-ab59-e457cf785a04,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"18EB","Nightrider to Laf","18 Nightrider to Lafayette, operates Friday and Saturday nights only during Purdue's Fall & Spring Semesters, during weeks when classes are held",3,8B4513,000000
-bda8368a-95e0-4543-bfe4-46aa81b040e1,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"22","Campus Suites","22 Campus Suites, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
-717c1ad5-7497-4bec-aa93-0bb1ee4c7342,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"23","Wabash Trolley ","23 Wabash Trolley",3,000000,FFFFFF
-a4eb47f4-067f-4e73-86e7-75f045e48db5,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"14","Black Loop","14 Black Loop To Campus, Saturday and Sunday Nights when Purdue is in session",3,000000,FFFFFF
-bc1be00c-4fce-4146-8bfa-30aba7b16ff6,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"9","Ready2Go","9 Ready2Go, operates Monday - Saturday",3,000080,FFFFFF
-77f6587e-72c2-42f7-a9e2-a54062697814,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"8","WB/Klondike Express","8 Willowbrook/Klondike Express, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
-c3dbc88c-19ef-42ae-bf44-dfc4b50b1683,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"13","Silver Loop","13 Silver Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,696969,000000
-45137169-73a5-4da3-9678-b6e0d76cf24f,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"17","Ross Ade","17 Ross Ade, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
-a3fd4721-606e-4e58-8726-86b64f8c49de,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"19","South Campus","19 South Campus, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,C71585,000000
+664826b5-2ec0-4a59-9d0b-4c7748b99fdb,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"8","WB/Klondike Express","8 Willowbrook/Klondike Express, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
+549507d3-d6c1-4384-81b0-f143ac3f2591,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"15","Tower Acres","15 Tower Acres, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,7CFC00,000000
+6ecdda59-4808-4834-8fb8-2a85e72d5dad,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"21","College Station","21 College Station, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
+41c5a1b7-b286-4b60-8f67-d380a6de8bb4,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"12","Gold Loop","12 Gold Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held ",3,FFD700,000000
+67d10c65-83ba-45ad-821c-0418d82ab0aa,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"20","AvTech","20 AvTech, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,C71585,000000
+2b45aa71-5372-4b55-a4c0-d8fad6ec756f,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"18EB","Nightrider to Laf","18 Nightrider to Lafayette, operates Friday and Saturday nights only during Purdue's Fall & Spring Semesters, during weeks when classes are held",3,8B4513,000000
+06b4fb0b-9f0c-4cce-81e3-de56a2365d4b,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"22","Campus Suites","22 Campus Suites, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
+c6064251-4f2a-428c-9b45-ccbed93633dc,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"16","Bronze Loop","16 Bronze Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,B8860B,000000
+ab5267ce-5139-43e7-afd1-2dd457142c2b,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"3","Lafayette Square","3 Lafayette Square, operates Monday - Sunday",3,FF8C00,000000
+8d17548d-d85f-4027-bd37-44d191db98e7,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"1A","Market Square","1A Market Square, operates Monday - Sunday",3,1E90FF,000000
+67c2954f-d374-46e4-9380-72294f0da734,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"23","Wabash Trolley ","23 Wabash Trolley",3,000000,FFFFFF
+a03f9259-6915-4806-8d4e-c971a9400760,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"13","Silver Loop","13 Silver Loop, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,696969,000000
+b4cc4418-4187-4700-8cc0-d676a9b4016c,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"17","Ross Ade","17 Ross Ade, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,DC143C,000000
+19d3f774-0f7f-41ac-aefb-8ad8035f6cac,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"19","South Campus","19 South Campus, operates Monday - Friday only during Purdue's Fall & Spring Semesters, on days when classes are held",3,C71585,000000
+f8e8d0f7-dbcd-4e84-81cc-89e7bfda8b8f,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"14","Black Loop","14 Black Loop To Campus, Saturday and Sunday Nights when Purdue is in session",3,000000,FFFFFF
+766c629e-39ab-482b-8d7b-658b7f0eed34,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"9","Ready2Go","9 Ready2Go, operates Monday - Saturday",3,000080,FFFFFF
+ea3849bd-bbd2-4d6c-ad4f-e9267b88a9ac,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"6B","South 18th St","6B South 18th St, operates Monday - Saturday",3,FF00FF,000000
+dbf92717-93b7-4cf0-a8de-5294c2e833fa,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"2A","Schuyler Ave","2A Schuyler Ave, operates Monday - Saturday",3,FF1493,000000
+72dd3672-71f6-4130-9615-bd4c3eed504f,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"5Nwrn","Northwestern","5 Northwestern, operates Monday - Saturday",3,FFA500,000000
+3c9661ac-7c2d-4bbe-ba3b-1b958a6f8748,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"18WB","Nightrider to Purdue/WL","18 Nightrider to Purdue/West Lafayette, operates Friday and Saturday nights only during Purdue's Fall & Spring Semesters, during weeks when classes are held",3,8B4513,000000
+097c6c88-c0ba-488b-a9cc-9971d98b28d2,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"4A","Tippecanoe Mall","4A Tippecanoe Mall, operates Monday - Sunday",3,008000,000000
+c75a7fc9-3616-4327-9a34-e523cb78df75,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"2B","Union St","2B Union St, operates Monday - Saturday",3,C71585,000000
+24b26c72-571c-480e-ae50-753c004d5014,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"7","State Road 26","7 State Road 26, operates Monday - Sunday",3,000000,FFFFFF
+0b470693-1f4f-40aa-a9fd-cbf2637cd0d2,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"6A","Fourth St","6A Fourth St, operates Monday - Saturday",3,FF00FF,000000
+1bcf391c-de20-4143-96c1-a79c95fd5036,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"5HH","Happy Hollow","5 Happy Hollow, operates Monday - Friday",3,FF4500,000000
+e11bea87-fb64-41c3-aee5-36b7c0afaa3d,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"4B","Purdue West","4B Purdue West, operates Monday - Saturday",3,006400,FFFFFF
+353b3256-a0da-4c00-988f-5bf0b52d0890,9eca155d-a6ad-42b1-8ad5-4888c7c42aaa,"1B","Salisbury","1B Salisbury, operates Monday - Sunday",3,4169E1,000000
