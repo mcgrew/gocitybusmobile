@@ -1,14 +1,13 @@
-from google.appengine.ext import webapp
-from google.appengine.ext.webapp.util import run_wsgi_app
+import webapp2
 from google.appengine.api.urlfetch import fetch
 from xml.dom.minidom import parseString
 import re
-import simplejson as json
+import json
 from math import pi, cos, sin, acos
 #from zipfile import ZipFile
 from csv import DictReader
 
-class MainPage( webapp.RequestHandler ):
+class MainPage( webapp2.RequestHandler ):
 	def get( self ):
 		stop_param = self.request.get( 'stop' )
 		lat_param = self.request.get( 'lat' )
@@ -119,10 +118,10 @@ def angular_distance( lat1, lon1, lat2, lon2 ):
 		
 
 
-application = webapp.WSGIApplication([( '/.*', MainPage)], debug=True )
+application = webapp2.WSGIApplication([( '/.*', MainPage)], debug=True )
 
 def main( ):
-	run_wsgi_app( application )
+	application.run( )
 
 def text_content( xml_node ):
 		return re.sub( "<.*?>", "", xml_node.toxml( ))

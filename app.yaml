@@ -1,23 +1,19 @@
-application: gocitybus
+application: gocitybus2
 version: 1
 runtime: python27
 api_version: 1
-threadsafe: false
+threadsafe: true
 
 handlers:
 - url: /simple
-  script: home.py
+  script: home.application
 
 - url: /api
-  script: api.py
+  script: api.application
 
 - url: /google_transit/*
   static_files: /google_transit/\1
   upload: /google_transit/*.txt
-
-- url: /simplejson/*
-  static_files: /simplejson/\1
-  upload: simplejson/*.py
 
 - url: /images
   static_dir: images

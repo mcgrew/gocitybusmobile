@@ -1,10 +1,9 @@
-from google.appengine.ext import webapp
-from google.appengine.ext.webapp.util import run_wsgi_app
+import webapp2
 from google.appengine.api.urlfetch import fetch
 from xml.dom.minidom import parseString
 import re
 
-class MainPage( webapp.RequestHandler ):
+class MainPage( webapp2.RequestHandler ):
 	def get( self ):
 		self.response.headers[ 'Content-Type'] = 'text/html'
 		self.response.out.write( "<!DOCTYPE html><html><head>" )
@@ -69,10 +68,10 @@ class MainPage( webapp.RequestHandler ):
 		self.response.out.write( "</body></html>" )
 
 
-application = webapp.WSGIApplication([( '/.*', MainPage)], debug=True )
+application = webapp2.WSGIApplication([( '/.*', MainPage)], debug=True )
 
 def main( ):
-	run_wsgi_app( application )
+	application.run( )
 
 def text_content( xml_node ):
 		return re.sub( "<.*?>", "", xml_node.toxml( ))
