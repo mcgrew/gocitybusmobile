@@ -49,7 +49,7 @@
 		} else {
 			xhr = new XMLHttpRequest( );
 			xhr.onreadystatechange = stopsHandler;
-			xhr.open( "GET", "/api?limit=6" + 
+			xhr.open( "GET", "/api?limit=12" + 
 				"&amp;lat=" + location.coords.latitude +
 				"&amp;lon=" + location.coords.longitude );
 			xhr.send( );
@@ -101,6 +101,10 @@
 	// --></script>
 	</head>
 	<body>
+	<form method="get" action="simple" >
+		<input type="text" name="stop" placeholder="Enter stop ID" />
+		<input type="submit" value="Submit" />
+	</form>	
 	<h1>Nearby Stops</h1>
 	<div id="stops"></div>
 	</body>
