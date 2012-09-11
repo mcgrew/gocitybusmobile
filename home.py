@@ -6,13 +6,14 @@ import re
 class MainPage( webapp2.RequestHandler ):
 	def get( self ):
 		self.response.headers[ 'Content-Type'] = 'text/html'
-		self.response.out.write( "<!DOCTYPE html><html><head>" )
+		self.response.out.write( "<!DOCTYPE html><html>" )
 		if self.request.get( 'stop' ):
 			self.response.out.write( '<meta http-equiv="refresh" content="60" />' )
 		self.response.out.write( """
-			<meta 
-				name="viewport" 
-				content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;" />
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+			<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+			<meta name="viewport" content="user-scalable=no,width=device-width" />
+			<head>
 			<style type='text/css'>
 				html, body {
 					font-family: Arial, Helvetica, sans-serif;
